@@ -8,9 +8,9 @@ chave = st.secrets["GEMINI_CHAVE"]
 
 head1, head2, head3 = st.columns ([2, 2, 10], vertical_alignment="bottom")
 with head1:
-     st.image("arquivos/ARROZ.jpg", width=255)
+     st.image("ARROZ.jpg", width=255)
 with head2:
-        st.image("arquivos/CHOCOLATE.jpg", width=122)
+        st.image("CHOCOLATE.jpg", width=122)
 with head3:
     st.title(":violet[RECEITA BOT]")
     st.subheader("O seu assistente virtual pra criar receitas!")
